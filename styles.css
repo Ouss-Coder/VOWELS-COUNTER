@@ -1,0 +1,54 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic);
+
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+html,body{
+    background:#2F1E27;
+    color:#2F1E27;
+    font-family:"Pt Sans", helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#label{
+    font-size: large;
+    padding-right: 10px;
+}
+#title{
+    display: flex;
+    justify-content: center;
+}
+.inputArea{
+    display: flex;
+    justify-content: center;
+
+}
+
+input{
+    border:none;
+    outline: none;
+    border-radius: 22px;
+    color: #2F1E27;
+    
+  }
+button{ 
+    background:rgba(197,62,126,.33);
+    color:#2F1E27;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+button:hover{
+    background: rgba(236, 93, 160, 0.33);
+}
+button:active{
+    background:rgba(224, 106, 161, 0.33)
+}
+.main{
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    width: 800px;
+    background-color: bisque;
+}
