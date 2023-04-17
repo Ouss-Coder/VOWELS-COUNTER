@@ -18,5 +18,5 @@ const count = () => {
             counter++
         }
     }
-    alert(counter)
+    alert("The Word "+ inputValue +' Has '+counter+" Vowels.")
 }
